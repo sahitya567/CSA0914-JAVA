@@ -1,0 +1,15 @@
+package Java_programs;
+
+public class vote {
+
+	public static void main(String[] args) {
+		int age=17;
+		if(age>18)
+		 System.out.print("you are eligible for vote");
+		else if(age<=0)
+		 System.out.print("Enter the age correctly");
+		else
+		 System.out.print("you are allowed to vote after " +(18-age));
+	}
+
+}
