@@ -1,0 +1,17 @@
+public class PrintOddNumbers {
+    public static void main(String[] args) {
+        int count = 0; // count of odd numbers printed
+        int num = 1; // starting number
+
+        while (true) {
+            if (num % 2 != 0) { // check if number is odd
+                count++;
+                System.out.println(num);
+                if (count == 4) { // stop after 4 odd numbers
+                    break;
+                }
+            }
+            num++;
+        }
+    }
+}
